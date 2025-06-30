@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="30x30" href="./image/pgts.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- ✅ Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- ✅ Bootstrap 5 JS Bundle CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <title>Prime Galaxy Technical Servicet</title>
+</head>
+
+<body>
+
+  <div class="main-section">
+
+    <!-- <div class="continer-svg">
+      <div class="svg">
+        <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <mask id="viMask">
+              <rect width="100%" height="100%" fill="black" />
+              <g class="vi-mask-group">
+                <text x="50%" y="50%" font-size="200" text-anchor="middle" fill="white" dominant-baseline="middle"
+                  font-family="Maharlika">
+                  TS
+                </text>
+
+              </g>
+            </mask>
+          </defs>
+          <image href="./image/Technical Service Ac 3d image.jpg" width="100%" height="100%"
+            preserveAspectRatio="xMidYMid slice" mask="url(#viMask)" />
+        </svg>
+      </div> -->
+    <!-- NAV BAR -->
+    <nav>
+      <div class="logo">
+        <img src="./image/pgts.png" alt="Logo">
+      </div>
+
+      <div class="navlist">
+        <ul id="menuList">
+          <li><a href="#">Home</a></li>
+          <li><a href="./Plumbing.html">Electrical </a></li>
+          <li><a href="./Electrical.html">Plumbing</a></li>
+          <li><a href="./Services.html">Services</a></li>
+          <li><a href="./co.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Responsive Toggle Button -->
+      <input type="checkbox" id="checkbox" style="display: none;">
+      <label for="checkbox" class="toggle" id="togglerButton">
+        <div class="bars" id="bar1"></div>
+        <div class="bars" id="bar2"></div>
+        <div class="bars" id="bar3"></div>
+      </label>
+    </nav>
+
+    <!-- ✅ Bootstrap Carousel Component -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide custom-carousel" data-bs-ride="carousel"
+      data-bs-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./image/banner1.png" class="d-block w-100" alt="First Slide" />
+        </div>
+        <div class="carousel-item">
+          <img src="./image/banner2.png" class="d-block w-100" alt="Second Slide" />
+        </div>
+        <div class="carousel-item">
+          <img src="./image/banner3.png" class="d-block w-100" alt="Third Slide" />
+        </div>
+        <div class="carousel-item">
+          <img src="./image/banner4.png" class="d-block w-100" alt="Fourth Slide" />
+        </div>
+        <div class="carousel-item">
+          <img src="./image/banner5.png" class="d-block w-100" alt="Fifth Slide" />
+        </div>
+        <div class="carousel-item">
+          <img src="./image/banner6.png" class="d-block w-100" alt="Sixth Slide" />
+        </div>
+      </div>
+    </div>
+
+    <!-- ✅ secd section -->
+    <section class="sec-section">
+      <h1>pgTS home & businesses installation Services</h1>
+      <div class="grid-container">
+        <!-- Left Side: Images & Stats -->
+        <div class="left-side">
+          <img src="./image/impoly-1.jpg" alt="Technician 1" class="image" data-aos="fade-up">
+
+          <img src="./image/impoly-2.jpeg" alt="Technician 2" class="image" data-aos="fade-up">
+          <img src="./image/impoly-3.jpeg" alt="Technician 3" class="image" data-aos="fade-up">
+          <img src="./image/impoly-4.jpg" alt="Technician 4" class="image" data-aos="fade-up">
+          <img src="./image/impoly-5.jpeg" alt="Technician 5" class="image" data-aos="fade-up">
+          <img src="./image/impoly-6.jpeg" alt="Technician 6" class="image" data-aos="fade-up">
+          <img>
+        </div>
+
+        <!-- Right Side: Text Content -->
+        <div class="right-side">
+          <h3 data-aos="fade-up">Earliest Consultation</h3>
+          <p data-aos="fade-up" data-aos-delay="100">
+            PGTS provides reliable maintenance support, including electrical, plumbing, HVAC, and repairs,
+            ensuring fast response, expert solutions, and ongoing service across the UAE.
+          </p>
+
+          <h3 data-aos="fade-up">Affordable Pricing</h3>
+          <p data-aos="fade-up" data-aos-delay="150">
+            PGTS delivers reliable maintenance services across the UAE, offering HVAC, plumbing, and
+            electrical solutions tailored to client needs at affordable, competitive prices.
+          </p>
+
+          <h3 data-aos="fade-up">All-In-One Service</h3>
+          <p data-aos="fade-up" data-aos-delay="200">
+            PGTS provides all-in-one maintenance services, including HVAC, plumbing, electrical, and general
+            repairs—delivering convenience and professionalism.
+          </p>
+        </div>
+      </div>
+
+      <div class="sec-item">
+
+        <section class="services-section">
+          <div class="services-header">
+            <div class="left-text">
+              <p class="subheading">OUR SERVICES</p>
+              <h2 class="text-sec">Save Time With Our Hassle-Free Solutions</h2>
+            </div>
+            <div class="right-text">
+              <p class="description">
+                PGTS offers comprehensive maintenance services, including electrical, plumbing, HVAC,
+                and general repairs. Our skilled team ensures reliable, efficient solutions for
+                residential, commercial, and industrial clients across the UAE with guaranteed
+                satisfaction.
+              </p>
+            </div>
+          </div>
+
+          <div class="card-grid">
+            <!-- Card 1 -->
+            <div class="card">
+              <div class="card-image">
+                <img src="./image/Office Fit-Out.jpg" alt="Service Image 1">
+                <div class="overlay"></div>
+              </div>
+              <p class="card-text">Office Fit-Out</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+              <div class="card-image">
+                <img src="./image/Glass Door Installation.jpg" alt="Service Image 2">
+                <div class="overlay"></div>
+              </div>
+              <p class="card-text">Glass Door Installation</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+              <div class="card-image">
+                <img src="./image/Automatic Door Repair.jpg" alt="Service Image 3">
+                <div class="overlay"></div>
+              </div>
+              <p class="card-text">Automatic Door Repair</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+              <div class="card-image">
+                <img src="./image/Interior Renovation.jpg" alt="Service Image 4">
+                <div class="overlay"></div>
+              </div>
+              <p class="card-text">Interior Renovation</p>
+            </div>
+          </div>
+
+          <div class="button-container">
+            <button class="view-btn">View All Services</button>
+          </div>
+        </section>
+
+      </div>
+    </section>
+
+    <!-- Swiper Section -->
+    <section class="client-section">
+      <h2>PGTS Client</h2>
+      <div class="client-wrapper">
+        <div class="client-logos">
+          <img src="./image/AJCCC_logo_straight_slogan-1.jpg" alt="Client 1">
+          <img src="./image/AL-AMANI-TRADING-LLC.jpg" alt="Client 2">
+          <img src="./image/amzoone.jpg" alt="Client 3">
+          <img src="./image/APPLE (1).jpg" alt="Client 4">
+          <img src="./image/APPLE.jpg" alt="Client 5">
+          <img src="./image/Automatic Door Repair.jpg" alt="Client 6">
+          <img src="./image/EFS-Facilities.jpg" alt="Client 7">
+          <img src="./image/ey-buliding.jpg" alt="Client 8">
+          <img src="./image/fac.jpg" alt="Client 9">
+          <img src="./image/facstouidi.jpg" alt="Client 10">
+          <img src="./image/ssaaaasddd (1).jpg" alt="Client 11">
+          <img src="./image/orcale.jpg" alt="Client 12">
+          <img src="./image/REDA-Industrial-Materials-FZE.png" alt="Client 13">
+          <img src="./image/ssaaaasddd.jpg" alt="Client 14">
+          <img src="./image/Tomas-r.jpg" alt="Client 15">
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper JS review card -->
+
+    <div class="review-section">
+
+      <div class="review-container">
+        <div class="text-header">
+          <h1 class="text-gradient">Customer Reviews</h1>
+        </div>
+
+        <!-- Changed class name from swiper to review-swiper -->
+        <div class="review-swiper mySwiper">
+          <!-- Changed class name from swiper-wrapper to review-wrapper -->
+          <div class="review-wrapper">
+
+            <!-- Changed class name from swiper-slide to review-slide -->
+            <div class="review-slide">
+              <div class="review-card">
+                <div class="review-header">
+                  <div class="avatar">J</div>
+                  <div class="review-info">
+                    <h4>Jisha Noy</h4>
+                    <span>3 years ago</span>
+                  </div>
+                  <i class="fab fa-google google-icon"></i>
+                </div>
+                <div class="stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <div class="review-text">
+                  Last week I required service from the UTS team and I was very happy with the service provided. The
+                  team
+                  was very professional and they did a great job. I would highly recommend them to anyone looking for
+                  a
+                  reliable service.
+                  I would definitely recommend this team to anyone looking for a reliable
+                </div>
+              </div>
+            </div>
+
+            <div class="review-slide">
+              <div class="review-card">
+                <div class="review-header">
+                  <div class="avatar">J</div>
+                  <div class="review-info">
+                    <h4>Jisha Noy</h4>
+                    <span>3 years ago</span>
+                  </div>
+                  <i class="fab fa-google google-icon"></i>
+                </div>
+                <div class="stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <div class="review-text">
+                  Last week I required service from the UTS team and I was very happy with the service provided. The
+                  team
+                  was very professional and they did a great job. I would highly recommend them to anyone looking for
+                  a
+                  reliable service.
+                  I would definitely recommend this team to anyone looking for a reliable
+                </div>
+              </div>
+            </div>
+
+            <div class="review-slide">
+              <div class="review-card">
+                <div class="review-header">
+                  <div class="avatar">J</div>
+                  <div class="review-info">
+                    <h4>Jisha Noy</h4>
+                    <span>3 years ago</span>
+                  </div>
+                  <i class="fab fa-google google-icon"></i>
+                </div>
+                <div class="stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <div class="review-text">
+                  Last week I required service from the UTS team and I was very happy with the service provided. The
+                  team
+                  was very professional and they did a great job. I would highly recommend them to anyone looking for
+                  a
+                  reliable service.
+                  I would definitely recommend this team to anyone looking for a reliable
+                </div>
+              </div>
+            </div>
+
+            <div class="review-slide">
+              <div class="review-card">
+                <div class="review-header">
+                  <div class="avatar">J</div>
+                  <div class="review-info">
+                    <h4>Jisha Noy</h4>
+                    <span>3 years ago</span>
+                  </div>
+                  <i class="fab fa-google google-icon"></i>
+                </div>
+                <div class="stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <div class="review-text">
+                  Last week I required service from the UTS team and I was very happy with the service provided. The
+                  team
+                  was very professional and they did a great job. I would highly recommend them to anyone looking for
+                  a
+                  reliable service.
+                  I would definitely recommend this team to anyone looking for a reliable
+                </div>
+              </div>
+            </div>
+
+            <div class="review-slide">
+              <div class="review-card">
+                <div class="review-header">
+                  <div class="avatar">J</div>
+                  <div class="review-info">
+                    <h4>Jisha Noy</h4>
+                    <span>3 years ago</span>
+                  </div>
+                  <i class="fab fa-google google-icon"></i>
+                </div>
+                <div class="stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <div class="review-text">
+                  Last week I required service from the UTS team and I was very happy with the service provided. The
+                  team
+                  was very professional and they did a great job. I would highly recommend them to anyone looking for
+                  a
+                  reliable service.
+                  I would definitely recommend this team to anyone looking for a reliable
+                </div>
+              </div>
+            </div>
+
+            <div class="review-slide">
+              <div class="review-card">
+                <div class="review-header">
+                  <div class="avatar">J</div>
+                  <div class="review-info">
+                    <h4>Jisha Noy</h4>
+                    <span>3 years ago</span>
+                  </div>
+                  <i class="fab fa-google google-icon"></i>
+                </div>
+                <div class="stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <div class="review-text">
+                  Last week I required service from the UTS team and I was very happy with the service provided. The
+                  team
+                  was very professional and they did a great job. I would highly recommend them to anyone looking for
+                  a
+                  reliable service.
+                  I would definitely recommend this team to anyone looking for a reliable
+                </div>
+              </div>
+            </div>
+
+            <!-- Duplicate review-slide blocks here -->
+
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
+
+    </div>
+    <div class="gsap-svg">
+      <svg id="bar" width="1340" height="250">
+        <path d="M 10 125 Q 500 125 1330 125" stroke="black" fill="transparent" />
+      </svg>
+    </div>
+
+
+    <!-- thard-scetion -->
+    <div class="thard-scetion">
+      <div class="thard-header-container">
+        <section class="amc-section">
+          <div class="amc-container" data-aos="fade-up">
+            <p class="tagline">BEST IN UAE</p>
+            <h2 class="heading">AMC Packages</h2>
+            <p class="desc">
+              PGTS offers comprehensive AMC packages covering HVAC, electrical, plumbing, and general maintenance
+              services.
+              <br>
+              Our plans ensure regular upkeep, quick response, and cost-effective solutions tailored to residential
+              and
+              commercial needs.
+            </p>
+          </div>
+
+          <div class="amc-footer" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              PGTS offers exceptional client services, ensuring reliable and efficient solutions across HVAC,
+              plumbing,
+              electrical, and general maintenance.
+              Our dedicated team provides tailored support, quick response times, and expert service to meet both
+              residential and commercial needs.
+              We focus on customer satisfaction, delivering high-quality results at affordable prices.
+              Contact us at <a href="mailto:info@pgtsuae.ae"><strong>info@pgtsuae.ae</strong></a>
+            </p>
+          </div>
+        </section>
+
+      </div>
+      <section class="horizontal" data-aos="fade-up">
+        <div class="scroll-container">
+          <div class="scroll-content" id="scrollContent">
+            <div class="item"><img src="image/careem.jpg" alt=""></div>
+            <div class="item"><img src="image/ey-buliding.jpg" alt=""></div>
+            <div class="item"><img src="image/fac.jpg" alt=""></div>
+            <div class="item"><img src="image/heberthills.png" alt=""></div>
+            <div class="item"><img src="image/lseg.jpg" alt=""></div>
+            <div class="item"><img src="image/Transitrex.jpg" alt=""></div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- main-video-container -->
+    <div class="video-section">
+      <div class="main-video-container">
+        <div class="video-container">
+          <video src="./image/Orange and Black Modern Business Service Promotion Ads Video.mp4" autoplay loop muted
+            playsinline>
+          </video>
+        </div>
+      </div>
+      <div>
+      </div>
+
+      <!-- footer-section -->
+      <footer class="footer">
+        <div class="column logo">
+          <img src="./image/pgts.png" alt="pgts logo" />
+          <p>PGTS Plumbing Services offers reliable solutions for residential, commercial, and industrial needs,
+            including installation, repairs, and maintenance.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a> <!-- ✅ Instagram -->
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./About.html">Electrical</a></li>
+            <li><a href="./Courses.html">Plumbing</a></li>
+            <li><a href="./Services.html">Services</a></li>
+            <li><a href="./co.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="column contact-infoo">
+          <h3>Contact Us</h3>
+          <p class="ioc"><i class="ri-map-pin-line"></i> Fasalabad</p>
+          <p class="ioc"><i class="ri-cellphone-line"></i> +92 3297422 339</p>
+          <p class="ioc"><i class="ri-mail-send-line"></i> developer.ubaidullah@gmail.com</p>
+        </div>
+        <div class="column newsletter">
+          <h3>Subscribe to Our Newsletter</h3>
+          <p>Stay updated with our latest courses, events, and offers.</p>
+          <input type="email" placeholder="Enter your email" />
+          <button>Subscribe</button>
+        </div>
+      </footer>
+    </div>
+
+    <!-- script.js must be type="module" -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
